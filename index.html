@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>W3Schools</title>
+	<meta charset="utf-8">
+
+	<!-- 
+	This is internal CSS, as it is part of the head element in the HTML doc.
+	You can also use external CSS by using an external CSS file in your folder structure.
+	 -->
+	<style>
+	table, th, td {
+	    border: 1px solid black;
+	    border-collapse: collapse;
+	}
+	th, td {
+	    padding: 5px;
+	    text-align: left;    
+	}
+	</style>
+
+</head>
+<body>
+	<!-- This is an html element, it is surrounded by opening and closing tags using angle brackets <> + </> -->
+	<h1>H1 Content</h1>
+	<h2>H2 Conent</h2>
+	<h3>H3 Conent</h3>
+	<h4>H4 Conent</h4>
+	<h5>H5 Conent</h5>
+	<h6>H6 Conent</h6>
+	<!-- There is no h7 heading -->
+
+	<!-- Nested elements -->
+	<div>
+		<p title="This p element is nested in a div element">This paragraph element is nested inside a div element/tag. Check out the source code.</p>
+		<p>To find out, right-click in the page and select "View Page Source" (in Chrome) or "View Source" (in IE), or similar in other browsers. This will open a window containing the HTML source code of the page.</p>
+	</div>
+
+	<!-- This anchor element has an attribute attached to the opening tag,
+	Attributes provide additional information about an element and are always located in the opening tag.
+	Attributes usually come in name/value pairs like: name="value". -->
+	<!-- Hyperlink -->
+	<a href="https://www.W3Schools.com">This is a link</a>
+	<p>The anchor element above will take you to the W3Schools website</p>
+	<hr>
+
+	<!-- Formatting elements -->
+	<p>This is <b>Bold</b> text</p>
+	<p>This is <strong>Strong</strong> text</p>
+	<p>The difference between these b + strong elements is that (b)bold is generally used for style and (strong)strong is used for semantic purposes to convey emphasis and is generally associated with Screen Readers.</p>
+	<p>This is <i>Italic</i> text</p>
+	<p>This is <em>Emphasized</em> text</p>
+	<p>The difference between these i + em elements is that (i)italic is generally used for style and (em)emphasized is used for semantic purposes to convey emphasis and is generally associated with Screen Readers.</p>
+
+	<!-- This img element requires the source attribute -->
+	<img src="smile.png" alt="Smile" width="240" height="200">
+
+	<p>HTML Table</p>
+	<h2>Cell that spans two columns</h2>
+	<p>To make a cell span more than one column, use the colspan attribute.</p>
+
+	<!-- This table uses inline CSS with the style attribute -->
+	<table style="width:50%">
+	  <tr>
+	    <th>Name</th>
+	    <th colspan="2">Telephone</th>
+	  </tr>
+	  <tr>
+	    <td>Bill Gates</td>
+	    <td>55577854</td>
+	    <td>55577855</td>
+	  </tr>
+	</table>
+
+	<hr>
+	<h1>HTML Block and Inline Elements</h1>
+	<p>Every HTML element has a default display value depending on what type of element it is. The default display value for most elements is block or inline.</p>
+	<p>A <strong>block-level</strong> element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).</p>
+	<p>An <strong>inline</strong> element does not start on a new line and only takes up as much width as necessary.</p>
+	<hr>
+
+	<!-- You can have multiple classes but only one ID -->
+	<h1>Classes and IDs</h1>
+	<p>The class attribute specifies one or more class names for an HTML element.</p>
+	<p class="blue">This p element has a class attribute of blue</p>
+	<p>The id attribute specifies a unique id for an HTML element (the value must be unique within the HTML document).</p>
+	<p id="cats">This p element has an id attribute of cats</p>
+	<p>Both classes and ids can be accessed by CSS, JavaScript and other technologies for various puposes and uses.</p>
+	<hr>
+
+	<h1>Iframes</h1>
+	<p>An iframe is used to display a web page within a web page.</p>
+	<p>Below is an example of an iframe of the website Wikipedia.</p>
+	<iframe src="https://www.wikipedia.org" height="300" width="500"></iframe>
+	<hr>
+
+	<h1>HTML5 Canvas</h1>
+	<p>The HTML canvas element is used to draw graphics, on the fly, via JavaScript.</p> 
+	<p>The canvas element is only a container for graphics. You must use JavaScript to actually draw the graphics.</p>
+	<p>Canvas has several methods for drawing paths, boxes, circles, text, and adding images.</p>
+	<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+	</canvas>
+	<hr>
+
+	<h1>HTML W3Schools references</h1>
+	<!-- All anchor elemets were nested/wrapped in a p element so they will display on seperate lines. P elements are block elements and a elements are inline elements -->
+	<p><a href="https://www.w3schools.com/html/default.asp">W3Schools HTML Reference Page</a></p>
+	<p><a href="https://www.w3schools.com/tags/default.asp">HTML Tag List</a></p>
+	<p><a href="https://www.w3schools.com/tags/ref_standardattributes.asp">HTML Attribute List</a></p>
+
+
+
+</body>
+</html>
